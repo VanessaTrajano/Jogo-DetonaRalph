@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url("../images/wall.png");
 }
 
 .menu{
@@ -16,8 +17,6 @@
 }
 
 .panel{
-    border: 1px solid #ff0000;
-
     margin-top: 1rem;
     display: flex;
     align-items: center;
@@ -27,10 +26,11 @@
 .square{
     height: 150px;
     width: 150px;
-    background-color: #80ffd4;
-    border: 1px solid #0000ff;
+    background-color: #1aeaa5;
+    border: 1px solid #000;
 }
 
 .enemy{
-    background-color: #ff0000;
+    background-image: url("../images/ralph.png");
+    background-size: cover;
 }
